@@ -28,5 +28,4 @@ void UWarriorHeroAnimInstance::NativeThreadSafeUpdateAnimation(float DeltaSecond
 		IdleElapsedTime += DeltaSeconds;
 		bShouldEnterRelaxedState = (IdleElapsedTime > EnterRelaxedStateThreshold);
 	}
-
 }

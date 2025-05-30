@@ -16,6 +16,7 @@ public class ProyectHades : ModuleRules
 			"InputCore", 
 			"GameplayTags",
 			"EnhancedInput",
+			"GameplayTasks"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

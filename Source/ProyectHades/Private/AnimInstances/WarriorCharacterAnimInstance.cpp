@@ -8,7 +8,6 @@
 #include "Characters/WarriorBaseCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
-#include "WarriorDebugHelper.h"
 
 void UWarriorCharacterAnimInstance::NativeInitializeAnimation()
 {
@@ -24,7 +23,6 @@ void UWarriorCharacterAnimInstance::NativeThreadSafeUpdateAnimation(float DeltaS
 {
 	if (!OwningCharacter || !OwningMovementComponent)
 	{
-		Debug::Print(TEXT("OwningCharacter or OwningMovementComponent is null in UWarriorCharacterAnimInstance::NativeThreadingUpdate"));
 		return;
 	}
 

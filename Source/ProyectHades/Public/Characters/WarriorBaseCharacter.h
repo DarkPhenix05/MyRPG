@@ -9,6 +9,7 @@
 
 class UWarriorAbilitySystemComponent;
 class UWarriorAttributeSet;
+class UDataAsset_StartUpDataBase;
 UCLASS()
 class PROYECTHADES_API AWarriorBaseCharacter : public ACharacter, public IAbilitySystemInterface
 {
@@ -18,7 +19,7 @@ public:
 	// Sets default values for this character's properties
 	AWarriorBaseCharacter();
 	//~ Begin APawn Interface.
-	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const;
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	//~ End	APawn Interface.
 
 	
@@ -33,7 +34,16 @@ protected:
 	UPROPERTY(VisibleAnywhere,BlueprintreadOnly,Category = "AbilitySystem")
 	UWarriorAttributeSet* WarriorAttributeSet;
 
+	/*
+	 *Set up a SoftObjectPtr.
+	 */
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "CharacterData")
+	TSoftObjectPtr<UDataAsset_StartUpDataBase> CharacterStartUpData;
+
+	
+	
 public:
 	FORCEINLINE UWarriorAbilitySystemComponent* GetWarriorAbilitySystemComponent() const { return WarriorAbilitySystemComponent; }
+	
 	FORCEINLINE UWarriorAttributeSet* GetWarriorAttributeSet() const { return WarriorAttributeSet; }
 };

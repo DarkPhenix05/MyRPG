@@ -11,12 +11,7 @@ class UCharacterMovementComponent;
 /**
  *
  */
-UCLASS
-
-
-
-
-()
+UCLASS()
 class PROYECTHADES_API UWarriorCharacterAnimInstance : public UWarriorBaseAnimInstance
 {
 	GENERATED_BODY()
@@ -24,7 +19,7 @@ class PROYECTHADES_API UWarriorCharacterAnimInstance : public UWarriorBaseAnimIn
 public:
 	virtual void NativeInitializeAnimation() override;
 
-	virtual  void NativeThreadingUpdate(float DeltaSeconds);
+	virtual  void NativeThreadSafeUpdateAnimation(float DeltaSeconds);
 
 protected:
 	UPROPERTY()

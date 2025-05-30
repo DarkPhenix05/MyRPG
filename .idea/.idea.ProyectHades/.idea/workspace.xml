@@ -12,19 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/HeroCharacter/SK_CharM_Barbarous.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/HeroCharacter/SK_CharM_Barbarous.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/HeroCharacter/SK_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/HeroCharacter/SK_Hero.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/GA_Hero_SpawnAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/GA_Hero_SpawnAxe.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorBaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorBaseCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorHeroCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/DataAssets/StartUpData/DataAsset_StartUpDataBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/DataAssets/StartUpData/DataAsset_StartUpDataBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Characters/WarriorBaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Characters/WarriorBaseCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/DataAssets/StartUpData/DataAsset_StartUpDataBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/DataAssets/StartUpData/DataAsset_StartUpDataBase.h" afterDir="false" />
-    </list>
+    <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +255,7 @@
       <workItem from="1748583993764" duration="102000" />
       <workItem from="1748626030821" duration="4415000" />
       <workItem from="1748638108032" duration="1523000" />
-      <workItem from="1748640181534" duration="2468000" />
+      <workItem from="1748640181534" duration="2623000" />
     </task>
     <servers />
   </component>

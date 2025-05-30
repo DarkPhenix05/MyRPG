@@ -18,8 +18,7 @@ class PROYECTHADES_API UWarriorCharacterAnimInstance : public UWarriorBaseAnimIn
 
 public:
 	virtual void NativeInitializeAnimation() override;
-
-	virtual  void NativeThreadSafeUpdateAnimation(float DeltaSeconds);
+	virtual  void NativeThreadSafeUpdateAnimation(float DeltaSeconds) override;
 
 protected:
 	UPROPERTY()

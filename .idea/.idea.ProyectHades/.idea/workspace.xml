@@ -14,11 +14,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/ABP_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/ABP_Hero.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/BlendSpace/BS_UnrarmedLocomotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/BlendSpace/BS_UnrarmedLocomotion.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/WarriorCharacterAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/WarriorCharacterAnimInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectHades.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectHades.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/Hero/WarriorHeroAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/Hero/WarriorHeroAnimInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/Hero/WarriorHeroAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/Hero/WarriorHeroAnimInstance.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/WarriorCharacterAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/WarriorCharacterAnimInstance.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://4" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/Components/Input/WarriorInputComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorHeroController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/DataAssets/Input/DataAsset_InputConfig.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -240,7 +239,7 @@
       <workItem from="1748499475151" duration="847000" />
       <workItem from="1748500394107" duration="2273000" />
       <workItem from="1748571151226" duration="1046000" />
-      <workItem from="1748574308169" duration="1269000" />
+      <workItem from="1748574308169" duration="2830000" />
     </task>
     <servers />
   </component>

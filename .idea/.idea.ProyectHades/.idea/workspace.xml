@@ -14,7 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +248,7 @@
       <workItem from="1748574308169" duration="2830000" />
       <workItem from="1748583993764" duration="102000" />
       <workItem from="1748626030821" duration="4415000" />
-      <workItem from="1748638108032" duration="1444000" />
+      <workItem from="1748638108032" duration="1523000" />
     </task>
     <servers />
   </component>

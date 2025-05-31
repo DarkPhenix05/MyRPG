@@ -9,7 +9,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "DataAssets/Input/DataAsset_InputConfig.h"
 #include "Components/Input/WarriorInputComponent.h"
-#include "WarriorGamplayTags.h"
+#include "WarriorGameplayTags.h"
 #include "AbiilitySystem//WarriorAbilitySystemComponent.h"
 #include "DataAssets/StartUpData/DataAsset_HeroStartUpData.h"
 #include "Components/Combat/HeroCombatComponent.h"

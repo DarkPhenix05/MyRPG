@@ -5,12 +5,12 @@
 #include "AbiilitySystem/WarriorAbilitySystemComponent.h"
 #include "AbiilitySystem/Abilities/WarriorGameplayAbility.h"
 
-void UDataAsset_StartUpDataBase::GiveToAbilitySystemComponent(UWarriorAbilitySystemComponent* InASCTToGive,
+void UDataAsset_StartUpDataBase::GiveToAbilitySystemComponent(UWarriorAbilitySystemComponent* InASCToGive,
                                                               int32 ApplyLevel)
 {
-	check(InASCTToGive);
-	GrantAbilities(ActivateOnGivenAbilities, InASCTToGive, ApplyLevel);
-	GrantAbilities(ReactiveAbilities, InASCTToGive, ApplyLevel);
+	check(InASCToGive);
+	GrantAbilities(ActivateOnGivenAbilities, InASCToGive, ApplyLevel);
+	GrantAbilities(ReactiveAbilities, InASCToGive, ApplyLevel);
 }
 
 void UDataAsset_StartUpDataBase::GrantAbilities(const TArray<TSubclassOf<UWarriorGameplayAbility>>& InAbilitiesToGive,

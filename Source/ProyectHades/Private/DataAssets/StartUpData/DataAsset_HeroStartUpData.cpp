@@ -17,7 +17,7 @@ void UDataAsset_HeroStartUpData::GiveToAbilitySystemComponent(UWarriorAbilitySys
 
 	for (const FWarriorHeroAbilitySet& AbilitySet : HeroStartAbilitySets)
 	{
-		if (AbilitySet.IsValid())
+		if (!AbilitySet.IsValid())
 		{
 			continue;
 		}

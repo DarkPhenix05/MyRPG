@@ -72,8 +72,13 @@ void AWarriorHeroCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 	UWarriorInputComponent* WarriorInputComponent = CastChecked<UWarriorInputComponent>(PlayerInputComponent);
 
-	WarriorInputComponent->BindNativeAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Move,ETriggerEvent::Triggered, this, &ThisClass::Input_Move);
-	WarriorInputComponent->BindNativeAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Look,ETriggerEvent::Triggered, this, &ThisClass::Input_Look);
+	WarriorInputComponent->BindNativeAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Move,
+											ETriggerEvent::Triggered, this, &ThisClass::Input_Move);
+	WarriorInputComponent->BindNativeAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Look,
+											ETriggerEvent::Triggered, this, &ThisClass::Input_Look);
+
+	WarriorInputComponent->BindAbilityAction(InputConfigDataAsset, this,
+											&ThisClass::Input_AbilityInputPressed,&ThisClass::Input_AbilityInputReleased);
 }
 
 void AWarriorHeroCharacter::BeginPlay()
@@ -113,4 +118,14 @@ void AWarriorHeroCharacter::Input_Look(const FInputActionValue& InputActionValue
 	{
 		AddControllerYawInput(LookAxisVector.X);
 	}
+}
+
+void AWarriorHeroCharacter::Input_AbilityInputPressed(FGameplayTag InputActionTag)
+{
+	WarriorAbilitySystemComponent->OnAbilityInputPressed(InputActionTag);
+}
+
+void AWarriorHeroCharacter::Input_AbilityInputReleased(FGameplayTag InputActionTag)
+{
+	WarriorAbilitySystemComponent->OnAbilityInputReleased(InputActionTag);
 }

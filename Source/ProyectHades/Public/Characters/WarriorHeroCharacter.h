@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Characters/WarriorBaseCharacter.h"
+#include "GameplayTagContainer.h"
 #include "WarriorHeroCharacter.generated.h"
 
 class USpringArmComponent;
@@ -49,6 +50,10 @@ private:
 
 	void Input_Move(const FInputActionValue& InputActionValue);
 	void Input_Look(const FInputActionValue& InputActionValue);
+
+	void Input_AbilityInputPressed(FGameplayTag InputActionTag);
+	void Input_AbilityInputReleased(FGameplayTag InputActionTag);
+	
 #pragma endregion
 
 public:

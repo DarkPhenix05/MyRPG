@@ -19,6 +19,8 @@ public:
 	void BindNativeAction(const UDataAsset_InputConfig* InInputConfig, const FGameplayTag& InInputTag, 
                       ETriggerEvent TriggerEvent, UserObject* ContextObject, CallbackFunc Func);
 
+	template<class UserObject, typename CallbackFunc>	
+	void BindAbilityAction(const UDataAsset_InputConfig* InInputConfig, UserObject* ContextObject, CallbackFunc InputPressedFunc, CallbackFunc InputRelasedFunc);
 
 };
 
@@ -33,3 +35,24 @@ inline void UWarriorInputComponent::BindNativeAction(const UDataAsset_InputConfi
     }
 	
 }
+
+template <class UserObject, typename CallbackFunc>
+void UWarriorInputComponent::BindAbilityAction(const UDataAsset_InputConfig* InInputConfig, UserObject* ContextObject,
+	CallbackFunc InputPressedFunc, CallbackFunc InputRelasedFunc)
+{
+	checkf(InInputConfig, TEXT("UWarriorInputComponent::BindNativeAction - InInputConfig is null!"));
+
+	for (const FWarriorInputActionConfig& AbilityInputActionsConfig : InInputConfig->AbilityInputActions)
+	{
+		if (!AbilityInputActionsConfig.IsValid())
+		{
+			continue;
+		}
+
+		BindAction(AbilityInputActionsConfig.InputAction, ETriggerEvent::Started, ContextObject, InputPressedFunc,
+			AbilityInputActionsConfig.InputTag);
+		BindAction(AbilityInputActionsConfig.InputAction, ETriggerEvent::Completed, ContextObject, InputRelasedFunc,
+			AbilityInputActionsConfig.InputTag);
+	}
+}
+

@@ -14,15 +14,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/GA_Hero_SpawnAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/GA_Hero_SpawnAxe.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/Abilities/WarriorGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/Abilities/WarriorGameplayAbility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorHeroCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Components/Combat/PawnCombatComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Components/Combat/PawnCombatComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/WarriorGamplayTags.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/Abilities/WarriorGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/Abilities/WarriorGameplayAbility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/Combat/PawnCombatComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/Combat/PawnCombatComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/WarriorGamplayTags.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +263,8 @@
       <workItem from="1748638108032" duration="1523000" />
       <workItem from="1748640181534" duration="2623000" />
       <workItem from="1748645680000" duration="694000" />
-      <workItem from="1748646430601" duration="3857000" />
+      <workItem from="1748646430601" duration="4458000" />
+      <workItem from="1748808211021" duration="1521000" />
     </task>
     <servers />
   </component>
@@ -296,6 +290,11 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/Abilities/WarriorGameplayAbility.h</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

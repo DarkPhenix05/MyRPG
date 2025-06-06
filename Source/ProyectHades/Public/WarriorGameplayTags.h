@@ -32,5 +32,7 @@ namespace  WarriorGameplayTags
 		//Equip Axe EVENTS
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Events_Equip_Axe);
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Events_Unequip_Axe);
+		//Status
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_JumpToFinisher);
 	
 }

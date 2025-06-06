@@ -14,9 +14,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectHades.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectHades.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/Hero/WarriorHeroLinkedAnimLayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/Hero/WarriorHeroLinkedAnimLayer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/Hero/WarriorHeroLinkedAnimLayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/Hero/WarriorHeroLinkedAnimLayer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/AnimLayer/AnimLayer_HeroAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/AnimLayer/AnimLayer_HeroAxe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/BlendSpace/BS_DefaultLocomotion_Axe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/BlendSpace/BS_DefaultLocomotion_Axe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/MasterAnimLayer_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/MasterAnimLayer_Hero.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/GA_Hero_EquipAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/GA_Hero_EquipAxe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroAxe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Components/Combat/HeroCombatComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Components/Combat/HeroCombatComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/Combat/HeroCombatComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/Combat/HeroCombatComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Items/Weapons/WarriorHeroWeapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Items/Weapons/WarriorHeroWeapon.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +284,7 @@
       <workItem from="1748839733696" duration="120000" />
       <workItem from="1748839966368" duration="11000" />
       <workItem from="1748840271536" duration="1063000" />
-      <workItem from="1749164942266" duration="1377000" />
+      <workItem from="1749164942266" duration="4472000" />
     </task>
     <servers />
   </component>

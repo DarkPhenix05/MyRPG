@@ -16,7 +16,7 @@ class PROYECTHADES_API UDataAsset_StartUpDataBase : public UDataAsset
 {
 	GENERATED_BODY()
 public:
-	virtual void GiveToAbilitySystemComponent(UWarriorAbilitySystemComponent* InASCTToGive, int32 ApplyLevel = 1);
+	virtual void GiveToAbilitySystemComponent(UWarriorAbilitySystemComponent* InASCToGive, int32 ApplyLevel = 1);
 	
 protected:
 	UPROPERTY(EditDefaultsOnly, Category = "StartUpData")

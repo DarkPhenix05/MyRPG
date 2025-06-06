@@ -9,9 +9,10 @@
 #include "EnhancedInputSubsystems.h"
 #include "DataAssets/Input/DataAsset_InputConfig.h"
 #include "Components/Input/WarriorInputComponent.h"
-#include "WarriorGamplayTags.h"
+#include "WarriorGameplayTags.h"
 #include "AbiilitySystem//WarriorAbilitySystemComponent.h"
 #include "DataAssets/StartUpData/DataAsset_HeroStartUpData.h"
+#include "Components/Combat/HeroCombatComponent.h"
 
 #include "WarriorDebugHelper.h"
 
@@ -38,6 +39,8 @@ AWarriorHeroCharacter::AWarriorHeroCharacter()
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 500.f, 0.f);
 	GetCharacterMovement()->MaxWalkSpeed = 400.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
+
+	 HeroCombatComponent = CreateDefaultSubobject<UHeroCombatComponent>(TEXT("HeroCombatComponent"));
 }
 
 void AWarriorHeroCharacter::PossessedBy(AController* NewController)
@@ -69,8 +72,13 @@ void AWarriorHeroCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 	UWarriorInputComponent* WarriorInputComponent = CastChecked<UWarriorInputComponent>(PlayerInputComponent);
 
-	WarriorInputComponent->BindNativeAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Move,ETriggerEvent::Triggered, this, &ThisClass::Input_Move);
-	WarriorInputComponent->BindNativeAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Look,ETriggerEvent::Triggered, this, &ThisClass::Input_Look);
+	WarriorInputComponent->BindNativeAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Move,
+											ETriggerEvent::Triggered, this, &ThisClass::Input_Move);
+	WarriorInputComponent->BindNativeAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Look,
+											ETriggerEvent::Triggered, this, &ThisClass::Input_Look);
+
+	WarriorInputComponent->BindAbilityAction(InputConfigDataAsset, this,
+											&ThisClass::Input_AbilityInputPressed,&ThisClass::Input_AbilityInputReleased);
 }
 
 void AWarriorHeroCharacter::BeginPlay()
@@ -110,4 +118,14 @@ void AWarriorHeroCharacter::Input_Look(const FInputActionValue& InputActionValue
 	{
 		AddControllerYawInput(LookAxisVector.X);
 	}
+}
+
+void AWarriorHeroCharacter::Input_AbilityInputPressed(FGameplayTag InputActionTag)
+{
+	WarriorAbilitySystemComponent->OnAbilityInputPressed(InputActionTag);
+}
+
+void AWarriorHeroCharacter::Input_AbilityInputReleased(FGameplayTag InputActionTag)
+{
+	WarriorAbilitySystemComponent->OnAbilityInputReleased(InputActionTag);
 }

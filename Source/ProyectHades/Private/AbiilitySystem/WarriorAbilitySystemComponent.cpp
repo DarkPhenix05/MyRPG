@@ -2,6 +2,7 @@
 
 
 #include "AbiilitySystem/WarriorAbilitySystemComponent.h"
+#include "AbiilitySystem/Abilities/WarriorGameplayAbility.h"
 
 void UWarriorAbilitySystemComponent::OnAbilityInputPressed(FGameplayTag InputTag)
 {
@@ -23,4 +24,32 @@ void UWarriorAbilitySystemComponent::OnAbilityInputPressed(FGameplayTag InputTag
 
 void UWarriorAbilitySystemComponent::OnAbilityInputReleased(FGameplayTag InputTag)
 {
+	
+}
+
+void UWarriorAbilitySystemComponent::GrantHeroWeaponAbilities(
+	const TArray<FWarriorHeroAbilitySet>& InDefaultWeaponAbilities, int32 ApplyLevel,
+	TArray<FGameplayAbilitySpecHandle>& OutGrantedAbilitySpecHandles)
+{
+	if (InDefaultWeaponAbilities.IsEmpty())
+	{
+		return;
+	}
+
+	for (const FWarriorHeroAbilitySet& AbilitySet : InDefaultWeaponAbilities)
+	{
+		if (!AbilitySet.IsValid())
+		{
+			continue;
+		}
+
+		FGameplayAbilitySpec AbilitySpec(AbilitySet.AbilityToGrant);
+		AbilitySpec.SourceObject = GetAvatarActor();
+		AbilitySpec.Level = ApplyLevel;
+		AbilitySpec.DynamicAbilityTags.AddTag(AbilitySet.InputTag);
+		
+		GiveAbility(AbilitySpec);
+
+		OutGrantedAbilitySpecHandles.AddUnique(GiveAbility(AbilitySpec));
+	}
 }

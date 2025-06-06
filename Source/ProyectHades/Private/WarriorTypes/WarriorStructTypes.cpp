@@ -2,4 +2,9 @@
 
 
 #include "WarriorTypes/WarriorStructTypes.h"
+#include "AbiilitySystem/Abilities/WarriorGameplayAbility.h"
 
+bool FWarriorHeroAbilitySet::IsValid() const
+{
+	return InputTag.IsValid() && AbilityToGrant;
+}

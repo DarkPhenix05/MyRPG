@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Items/Weapons/WarriorWeaponBase.h"
 #include "WarriorTypes/WarriorStructTypes.h"
+#include "GameplayAbilitySpecHandle.h"
 #include "WarriorHeroWeapon.generated.h"
 
 /**
@@ -18,5 +19,14 @@ class PROYECTHADES_API AWarriorHeroWeapon : public AWarriorWeaponBase
 public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "WeaponData")
 	FWarriorHeroWeaponData HeroWEPData;
+
+	UFUNCTION(BlueprintCallable)
+	void AssignGrantedAbilitySpecHandles(const TArray<FGameplayAbilitySpecHandle>& InSpecHandles);
+
+	UFUNCTION(BlueprintPure)
+	TArray<FGameplayAbilitySpecHandle> GetGrantedAbilitySpecHandles() const;
+	
+private:
+	TArray<FGameplayAbilitySpecHandle> GrantedAbilitySpecHandles;
 	
 };

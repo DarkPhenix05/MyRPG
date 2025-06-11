@@ -14,8 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/DataAssets/StartUpData/DataAsset_StartUpDataBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/DataAssets/StartUpData/DataAsset_StartUpDataBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/DataAssets/StartUpData/DataAsset_StartUpDataBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/DataAssets/StartUpData/DataAsset_StartUpDataBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/DA_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/DA_Guardian.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +295,7 @@
       <workItem from="1749461613214" duration="8000" />
       <workItem from="1749462165341" duration="2554000" />
       <workItem from="1749474023228" duration="2115000" />
-      <workItem from="1749636677707" duration="1528000" />
+      <workItem from="1749636677707" duration="2166000" />
     </task>
     <servers />
   </component>

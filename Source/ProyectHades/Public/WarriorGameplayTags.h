@@ -37,4 +37,7 @@ namespace  WarriorGameplayTags
 
 	/** Enemy TAGS **/
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Weapon);
+
+	/** Shared TAGS **/
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_MeleeHit);	
 }

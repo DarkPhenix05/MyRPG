@@ -34,7 +34,10 @@ namespace  WarriorGameplayTags
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Events_Unequip_Axe);
 		//Status
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_JumpToFinisher);
-
+		//SetByCaller
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_SetByCaller_AttackType_Light);
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_SetByCaller_AttackType_Heavy);
+	
 	/** Enemy TAGS **/
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Weapon);
 

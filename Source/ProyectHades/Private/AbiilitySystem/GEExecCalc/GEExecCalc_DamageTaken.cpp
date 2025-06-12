@@ -3,6 +3,7 @@
 
 #include "AbiilitySystem/GEExecCalc/GEExecCalc_DamageTaken.h"
 #include "AbiilitySystem/WarriorAttributeSet.h"
+#include "WarriorGameplayTags.h"
 
 struct FWarriorDamageCapture
 {
@@ -46,4 +47,54 @@ UGEExecCalc_DamageTaken::UGEExecCalc_DamageTaken()
 
 	RelevantAttributesToCapture.Add(GetWarriorDamageCapture().AttackPowerDef);
 	RelevantAttributesToCapture.Add(GetWarriorDamageCapture().DefensePowerDef);
+}
+
+void UGEExecCalc_DamageTaken::Execute_Implementation(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
+	FGameplayEffectCustomExecutionOutput& OutExecutionOutput) const
+{
+	Super::Execute_Implementation(ExecutionParams, OutExecutionOutput);
+	
+	const FGameplayEffectSpec& EffectSpec = ExecutionParams.GetOwningSpec();
+
+#pragma region	EffectSpec Accesible Data
+	/**
+	EffectSpec.GetContext().GetSourceObject();
+	EffectSpec.GetContext().GetAbility();
+	EffectSpec.GetContext().GetInstigator();
+	EffectSpec.GetContext().GetEffectCauser();
+	**/
+#pragma endregion
+	
+	FAggregatorEvaluateParameters EvaluateParams;
+	EvaluateParams.SourceTags = EffectSpec.CapturedSourceTags.GetAggregatedTags();
+	EvaluateParams.TargetTags = EffectSpec.CapturedTargetTags.GetAggregatedTags();
+
+	float SourceAttackPower = 0.0f;
+	ExecutionParams.AttemptCalculateCapturedAttributeMagnitude(GetWarriorDamageCapture().AttackPowerDef, EvaluateParams, SourceAttackPower);
+	
+	float BaseDamage = 0.0f;
+	int32 UsedLightAttackComboCount = 0;
+	int32 UsedHeavyAttackComboCount = 0;
+	
+	for (const TPair<FGameplayTag, float>& TagMagnitude : EffectSpec.SetByCallerTagMagnitudes)	
+	{
+		if (TagMagnitude.Key.MatchesTagExact(WarriorGameplayTags::Shared_SetByCaller_BaseDamage))
+		{
+			BaseDamage = TagMagnitude.Value;
+		}
+
+		if (TagMagnitude.Key.MatchesTagExact(WarriorGameplayTags::Player_SetByCaller_AttackType_Light))
+		{
+			UsedLightAttackComboCount = TagMagnitude.Value;
+		}
+
+		if (TagMagnitude.Key.MatchesTagExact(WarriorGameplayTags::Player_SetByCaller_AttackType_Heavy))
+		{
+			UsedHeavyAttackComboCount = TagMagnitude.Value;
+		}	
+	}
+	
+	float TargetDefensePower = 0.0f;
+	ExecutionParams.AttemptCalculateCapturedAttributeMagnitude(GetWarriorDamageCapture().DefensePowerDef, EvaluateParams, TargetDefensePower);
+	
 }

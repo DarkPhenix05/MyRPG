@@ -5,23 +5,28 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "AbilitYSystemInterface.h"
+#include "Interfaces/PawnCombatInteface.h"
 #include "WarriorBaseCharacter.generated.h"
 
 class UWarriorAbilitySystemComponent;
 class UWarriorAttributeSet;
 class UDataAsset_StartUpDataBase;
 UCLASS()
-class PROYECTHADES_API AWarriorBaseCharacter : public ACharacter, public IAbilitySystemInterface
+class PROYECTHADES_API AWarriorBaseCharacter : public ACharacter, public IAbilitySystemInterface, public IPawnCombatInteface
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
 	AWarriorBaseCharacter();
+	
 	//~ Begin APawn Interface.
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	//~ End	APawn Interface.
 
+	//~ Begin IPawnCombatInterface Interface.	
+	virtual UPawnCombatComponent* GetPawnCombatComponent() const override;
+	//~ End IPawnCombatInterface Interface.
 	
 protected:
 	//~ Begin APawn Interface.

@@ -18,7 +18,7 @@ class PROYECTHADES_API AWarriorHeroWeapon : public AWarriorWeaponBase
 
 public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "WeaponData")
-	FWarriorHeroWeaponData HeroWEPData;
+	FWarriorHeroWeaponData HeroWeaponData;
 
 	UFUNCTION(BlueprintCallable)
 	void AssignGrantedAbilitySpecHandles(const TArray<FGameplayAbilitySpecHandle>& InSpecHandles);

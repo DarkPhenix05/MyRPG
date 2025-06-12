@@ -14,14 +14,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/HeavyAttack/GA_Hero_HeavyAttackMaster.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/HeavyAttack/GA_Hero_HeavyAttackMaster.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/LightAttack/GA_Hero_LightAttackMaster.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/LightAttack/GA_Hero_LightAttackMaster.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Shared/AnimNotifyState/ANS_ToggleWeaponCollition.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/AnimNotifyState/ANS_ToggleWeaponCollition.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/Abilities/WarriorGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/Abilities/WarriorGameplayAbility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Components/Combat/HeroCombatComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Components/Combat/HeroCombatComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/Abilities/WarriorGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/Abilities/WarriorGameplayAbility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/Combat/HeroCombatComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/Combat/HeroCombatComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/WarriorTypes/WarriorEnumTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/WarriorTypes/WarriorEnumTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectHades.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectHades.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/GEExecCalc/GEExecCalc_DamageTaken.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/GEExecCalc/GEExecCalc_DamageTaken.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/GEExecCalc/GEExecCalc_DamageTaken.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/GEExecCalc/GEExecCalc_DamageTaken.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +42,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://3" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://4" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/GEExecCalc/GEExecCalc_DamageTaken.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/Components/Input/WarriorInputComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorHeroController.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -73,11 +68,18 @@
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayAbilitySet.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayEffectExecutionCalculation.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayTagResponseTable.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/MeshModelingToolset/Source/ModelingOperators/Private/PolyModelingOps/RegionOffsetOp.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/MeshModelingToolset/Source/ModelingOperators/Public/PolyModelingOps/RegionOffsetOp.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/NetworkPredictionExtras/Source/NetworkPredictionExtras/Private/CharacterMotionComponent.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/ResonanceAudio/Source/ResonanceAudio/Private/ResonanceAudioLibrary/resonance_audio/dsp/channel_converter.cc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Tests/CQTestEnhancedInput/Source/CQTestEnhancedInput/Private/Components/InputTestActions.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Developer/ScriptDisassembler/Private/ScriptDisassembler.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Developer/ToolWidgets/Public/SRichTextWarningOrErrorBox.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Developer/TraceInsights/Private/Insights/TimingProfiler/Tracks/RegionsTimingTrack.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Developer/TraceInsights/Private/Insights/TimingProfiler/Tracks/RegionsTimingTrack.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Developer/TraceServices/Private/Model/Regions.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Developer/TraceServices/Private/Model/RegionsPrivate.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Regions.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Developer/Windows/LiveCodingServer/Private/External/LC_FileAttributeCache.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Editor/BlueprintGraph/Classes/K2Node_DynamicCast.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Editor/BlueprintGraph/Private/DynamicCastHandler.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -89,6 +91,7 @@
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Editor/Persona/Private/SAnimNotifyPanel.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Editor/UnrealEd/Classes/Editor/EditorEngine.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Editor/UnrealEd/Public/PackageHelperFunctions.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Programs/AutomationTool/AutomationUtils/FileRegions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Programs/AutomationTool/AutomationUtils/Matchers/ContentEventMatcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Programs/AutomationTool/Scripts/BuildPhysX.Automation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Programs/Shared/EpicGames.Horde/Agents/AgentMessages.cs" root0="FORCE_HIGHLIGHTING" />
@@ -128,8 +131,11 @@
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/GameplayTasks/GameplayTasks.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/InputCore/InputCore.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/MovieSceneTracks/Private/Systems/WeightAndEasingEvaluatorSystem.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Navmesh/Private/Recast/RecastRegion.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/RenderCore/Public/Shader.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/ThirdParty/NVIDIA/GeForceNOW/GeForceNOW.Build.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
@@ -317,13 +323,14 @@
       <workItem from="1749636677707" duration="2166000" />
       <workItem from="1749640713873" duration="8348000" />
       <workItem from="1749679731387" duration="2344000" />
-      <workItem from="1749685477928" duration="4115000" />
+      <workItem from="1749685477928" duration="5711000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

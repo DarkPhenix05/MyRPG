@@ -23,7 +23,7 @@ public:
 	AWarriorHeroWeapon* GetHeroCurrentEquippedWeapon() const;
 
 	UFUNCTION(BlueprintCallable, Category = "Warrior|Combat")
-	float GetHeroCurrentEquipWeaponDamageAtLevel(float InLevel);
+	float GetHeroCurrentEquipWeaponDamageAtLevel(float InLevel) const;
 	
 	virtual void OnHitTargetActor(AActor* HitActor) override;
 	virtual void OnWeaponPulledFromTargetActor(AActor* InteractedActor) override;

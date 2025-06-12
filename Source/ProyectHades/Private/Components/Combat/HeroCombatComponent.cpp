@@ -18,7 +18,7 @@ AWarriorHeroWeapon* UHeroCombatComponent::GetHeroCurrentEquippedWeapon() const
 	return  Cast<AWarriorHeroWeapon>(GetCharacterCurrentEquippedWeapon());
 }
 
-float UHeroCombatComponent::GetHeroCurrentEquipWeaponDamageAtLevel(float InLevel)
+float UHeroCombatComponent::GetHeroCurrentEquipWeaponDamageAtLevel(float InLevel) const
 {
 	return  GetHeroCurrentEquippedWeapon()->HeroWeaponData.WeaponBaseDamage.GetValueAtLevel(InLevel);
 }

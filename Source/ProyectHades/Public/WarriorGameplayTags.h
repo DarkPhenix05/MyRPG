@@ -49,13 +49,17 @@ namespace  WarriorGameplayTags
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_Ranged);
 
 	/** Shared TAGS **/
+		//React to Hit
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Ability_HitReact_Light);
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Ability_HitReact_Heavy)
-	
+		//Death
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Ability_Death);
+		//React to Hit Event
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_MeleeHit);
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_HitReact_Light);
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_HitReact_Heavy);
-	
+		//Damage
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_SetByCaller_BaseDamage);
-	
+		//Death Status
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Status_Death);
 }

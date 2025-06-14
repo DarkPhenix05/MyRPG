@@ -19,13 +19,17 @@ class PROYECTHADES_API AWarriorAIController : public AAIController
 public:
 	AWarriorAIController(const FObjectInitializer& ObjectInitializer);
 
+	//~ Begin IGenericTeamAgentInterface Interface
+	virtual ETeamAttitude::Type GetTeamAttitudeTowards(const AActor& Other) const override;
+	//~ End IGenericTeamAgentInterface Interface
+
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UAIPerceptionComponent* EnemyPerceptionComponent;
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UAISenseConfig_Sight* AISenseConfig_Sight;
-
+	
 	UFUNCTION()
 	virtual void OneEnemyPerceptionUpdated(AActor* Actor, FAIStimulus Stimulus);
 };

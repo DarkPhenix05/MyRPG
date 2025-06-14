@@ -14,9 +14,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/AIC_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/AIC_Guardian.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorAIController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorAIController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorHeroController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorHeroController.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Controllers/WarriorAIController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Controllers/WarriorAIController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Controllers/WarriorHeroController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Controllers/WarriorHeroController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +141,7 @@
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagContainer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/GameplayTags/Private/NativeGameplayTags.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/GameplayTags/Public/NativeGameplayTags.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTaskOwnerInterface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTasksComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/GameplayTasks/GameplayTasks.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/InputCore/InputCore.Build.cs" root0="FORCE_HIGHLIGHTING" />
@@ -345,7 +347,7 @@
       <workItem from="1749805000943" duration="131000" />
       <workItem from="1749877094150" duration="195000" />
       <workItem from="1749877318438" duration="13268000" />
-      <workItem from="1749896129264" duration="1472000" />
+      <workItem from="1749896129264" duration="3452000" />
     </task>
     <servers />
   </component>

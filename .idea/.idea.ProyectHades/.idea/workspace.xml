@@ -13,8 +13,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayEffect/GE_Hero_Static.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayEffect/GE_Hero_Static.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Guardian.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Widgets/HeroWidgets/WBP_Hero_Overlay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Widgets/HeroWidgets/WBP_Hero_Overlay.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/FeatureDevMap/1/BP/B0TTYZJKMBPJ0X08HSW6Z6.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/FeatureDevMap/1/BP/B0TTYZJKMBPJ0X08HSW6Z6.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/FeatureDevMap/2/WS/XYYN1F4TN65LA6S237UBV9.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/FeatureDevMap/2/WS/XYYN1F4TN65LA6S237UBV9.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/FeatureDevMap/C/T3/JFUPOWVK575AP3MSGLEAJ2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/FeatureDevMap/C/T3/JFUPOWVK575AP3MSGLEAJ2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/FeatureDevMap/E/ZK/51N50DP4UCD5LN3YQYHCV1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/FeatureDevMap/E/ZK/51N50DP4UCD5LN3YQYHCV1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorEnemyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorEnemyCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Characters/WarriorEnemyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Characters/WarriorEnemyCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +386,7 @@
       <workItem from="1749782906994" duration="9879000" />
       <workItem from="1749805000943" duration="131000" />
       <workItem from="1749877094150" duration="195000" />
-      <workItem from="1749877318438" duration="8199000" />
+      <workItem from="1749877318438" duration="9393000" />
     </task>
     <servers />
   </component>

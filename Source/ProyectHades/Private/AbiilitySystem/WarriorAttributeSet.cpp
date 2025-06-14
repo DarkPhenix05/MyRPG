@@ -26,7 +26,7 @@ UWarriorAttributeSet::UWarriorAttributeSet()
 void UWarriorAttributeSet::PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData& Data)
 {
 #pragma region GET PAWN UI INTERFACE/COMPONENT
-	if (CachedPawnUIInterface.IsValid())
+	if (!CachedPawnUIInterface.IsValid())
 	{
 		CachedPawnUIInterface = TWeakInterfacePtr<IPawnUIInterface>(Data.Target.GetAvatarActor());
 		//CachedPawnUIInterface = Cast<IPawnUIInterface>(Data.Target.GetAvatarActor()); //Alternative Sintaxis
@@ -79,7 +79,7 @@ void UWarriorAttributeSet::PostGameplayEffectExecute(const struct FGameplayEffec
 		
 		PawnUIComponent->OnCurrentHealthChanged.Broadcast(GetCurrentHealth()/GetMaxHealth());
 		
-		if (NewHealth == 0.0f)
+		if (GetCurrentHealth() == 0.0f)
 		{
 			UWarriorFunctionLibrary::AddGameplayTagToActorIfNone(Data.Target.GetAvatarActor(), WarriorGameplayTags::Shared_Status_Death);
 		}

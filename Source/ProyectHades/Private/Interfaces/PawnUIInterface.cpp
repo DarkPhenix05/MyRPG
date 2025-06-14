@@ -8,3 +8,8 @@ UHeroUIComponent* IPawnUIInterface::GetHeroUIComponent() const
 {
 	return nullptr;
 }
+
+UEnemyUIComponent* IPawnUIInterface::GetEnemyUiComponent() const
+{
+	return nullptr;
+}

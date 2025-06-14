@@ -6,6 +6,7 @@
 #include "Blueprint/UserWidget.h"
 #include "WarriorWidgetBase.generated.h"
 
+class UEnemyUIComponent;
 class UHeroUIComponent;
 /**
  * 
@@ -18,6 +19,12 @@ class PROYECTHADES_API UWarriorWidgetBase : public UUserWidget
 protected:
 	virtual void NativeOnInitialized() override;
 
-	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "OnOwningHeroComponentInitialized"))
+	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "OnOwningHeroUIComponentInitialized"))
 	void BP_OnOwningHeroUIComponentInitialized(UHeroUIComponent* OwningHeroUIComponent);
+
+	UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = "OnOwningEnemyUIComponentInitialized"))
+	void BP_OnOwningEnemyUIComponentInitialized(UEnemyUIComponent* OwningEnemyUIComponent);
+public:
+	UFUNCTION(BlueprintCallable)
+	void InitEnemyCreatedWidget(AActor* OwningEnemyActor);
 };

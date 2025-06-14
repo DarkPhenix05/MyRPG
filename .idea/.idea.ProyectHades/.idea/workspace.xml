@@ -14,11 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/AIC_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/AIC_Guardian.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BT_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BT_Guardian.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorAIController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorAIController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Controllers/WarriorAIController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Controllers/WarriorAIController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/AI/BTService_OrientToTargetActor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/GEExecCalc/GEExecCalc_DamageTaken.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/Components/Input/WarriorInputComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/Controllers/WarriorHeroController.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -51,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/DataAssets/StartUpData/DataAsset_HeroStartUpData.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/WarriorGameplayTags.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Private/Widgets/WarriorWidgetBase.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Public/AI/BTService_OrientToTargetActor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/GEExecCalc/GEExecCalc_DamageTaken.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Public/Components/Input/WarriorInputComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Public/Controllers/WarriorHeroController.h" root0="FORCE_HIGHLIGHTING" />
@@ -349,7 +347,7 @@
       <workItem from="1749877094150" duration="195000" />
       <workItem from="1749877318438" duration="13268000" />
       <workItem from="1749896129264" duration="4374000" />
-      <workItem from="1749901126799" duration="1694000" />
+      <workItem from="1749901126799" duration="4389000" />
     </task>
     <servers />
   </component>

@@ -13,14 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/ABP_Enemy_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/ABP_Enemy_Base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/AnimBP/BS_Guardian_Strafing.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/AnimBP/BS_Guardian_Strafing.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BT_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BT_Guardian.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/WarriorBaseAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/WarriorBaseAnimInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/WarriorCharacterAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AnimInstances/WarriorCharacterAnimInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/ProyectHades.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/ProyectHades.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/WarriorBaseAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/WarriorBaseAnimInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/WarriorCharacterAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AnimInstances/WarriorCharacterAnimInstance.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +350,7 @@
       <workItem from="1749877094150" duration="195000" />
       <workItem from="1749877318438" duration="13268000" />
       <workItem from="1749896129264" duration="4374000" />
-      <workItem from="1749901126799" duration="8080000" />
+      <workItem from="1749901126799" duration="8721000" />
     </task>
     <servers />
   </component>

@@ -47,6 +47,8 @@ namespace  WarriorGameplayTags
 	
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_Melee);
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_Ranged);
+	
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Status_Strafing);
 
 	/** Shared TAGS **/
 		//React to Hit

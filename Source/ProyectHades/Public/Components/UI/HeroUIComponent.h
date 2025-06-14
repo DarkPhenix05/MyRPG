@@ -9,6 +9,8 @@
 /**
  * 
  */
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEquippedWeaponChangedDelegate, TSoftObjectPtr<UTexture2D>, SoftWeaponIcon);
+
 UCLASS()
 class PROYECTHADES_API UHeroUIComponent : public UPawnUIComponent
 {
@@ -16,6 +18,8 @@ class PROYECTHADES_API UHeroUIComponent : public UPawnUIComponent
 
 public:
 	UPROPERTY(BlueprintAssignable)
-	FonPercentChangeDelete OnCurrentRageChange;
-	
+	FOnPercentChangeDelete OnCurrentRageChange;
+
+	UPROPERTY(BlueprintCallable,BlueprintAssignable)
+	FOnEquippedWeaponChangedDelegate OnEquippedWeaponChanged;
 };

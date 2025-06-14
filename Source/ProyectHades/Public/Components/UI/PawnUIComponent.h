@@ -6,6 +6,7 @@
 #include "Components/PawnExtensionCmoponentBase.h"
 #include "PawnUIComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FonPercentChangeDelete, float, NewPecent);
 /**
  * 
  */
@@ -13,5 +14,7 @@ UCLASS()
 class PROYECTHADES_API UPawnUIComponent : public UPawnExtensionCmoponentBase
 {
 	GENERATED_BODY()
-	
+public:
+	UPROPERTY(BlueprintAssignable)
+	FonPercentChangeDelete OnCurrentHealthChanged;
 };

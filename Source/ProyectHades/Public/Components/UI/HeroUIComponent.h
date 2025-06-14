@@ -13,5 +13,9 @@ UCLASS()
 class PROYECTHADES_API UHeroUIComponent : public UPawnUIComponent
 {
 	GENERATED_BODY()
+
+public:
+	UPROPERTY(BlueprintAssignable)
+	FonPercentChangeDelete OnCurrentRageChange;
 	
 };

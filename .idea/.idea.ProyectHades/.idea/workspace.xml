@@ -14,13 +14,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/DA_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/DA_Guardian.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Enemy_HitReact_Heavy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Enemy_HitReact_Heavy.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Guardian_HitReact_Light.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Guardian_HitReact_Light.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/AM_ExoGame_Gruntling_React_Heavy_Front.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/AM_ExoGame_Gruntling_React_Knockback_Front.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/AM_ExoGame_Gruntling_React_Light_Front.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/AM_ExoGame_Gruntling_React_Light_Front_Alt.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/WarriorAbilitySystemComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/WarriorAbilitySystemComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/WarriorAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/WarriorAbilitySystemComponent.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +352,7 @@
       <workItem from="1749877094150" duration="195000" />
       <workItem from="1749877318438" duration="13268000" />
       <workItem from="1749896129264" duration="4374000" />
-      <workItem from="1749901126799" duration="10014000" />
+      <workItem from="1749901126799" duration="10706000" />
     </task>
     <servers />
   </component>

@@ -13,18 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/Equipping/GA_Hero_EquipAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/Equipping/GA_Hero_EquipAxe.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/Equipping/GA_Hero_UnequipAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/Equipping/GA_Hero_UnequipAxe.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/GA_Hero_DrawOverlayWidget.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroAxe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Widgets/EnemyWidgets/WBP_DefaultEnemyHealthBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Widgets/EnemyWidgets/WBP_DefaultEnemyHealthBar.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Widgets/HeroWidgets/WBP_Hero_Overlay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Widgets/HeroWidgets/WBP_Hero_Overlay.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Widgets/TemplateWidgets/Materials/MI_HeroHealthBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Widgets/TemplateWidgets/Materials/MI_HeroHealthBar.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Widgets/TemplateWidgets/TPWBP_IconSlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Widgets/TemplateWidgets/TPWBP_IconSlot.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/UI/HeroUIComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/UI/HeroUIComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/UI/PawnUIComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Components/UI/PawnUIComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/WarriorTypes/WarriorStructTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/WarriorTypes/WarriorStructTypes.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,7 +384,7 @@
       <workItem from="1749782906994" duration="9879000" />
       <workItem from="1749805000943" duration="131000" />
       <workItem from="1749877094150" duration="195000" />
-      <workItem from="1749877318438" duration="12662000" />
+      <workItem from="1749877318438" duration="13268000" />
     </task>
     <servers />
   </component>

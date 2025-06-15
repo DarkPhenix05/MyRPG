@@ -14,12 +14,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Guardian_Melee_1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Guardian_Melee_1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/HeavyAttack/GA_Hero_HeavyAttackMaster.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/HeavyAttack/GA_Hero_HeavyAttackMaster.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Enemy_MeleeAttack_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Enemy_MeleeAttack_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/Abilities/WarriorEnemyGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AbiilitySystem/Abilities/WarriorEnemyGameplayAbility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/Abilities/WarriorEnemyGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AbiilitySystem/Abilities/WarriorEnemyGameplayAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/DA_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/DA_Guardian.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Guardian_Melee_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Guardian_Melee_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayEfect/CT_GuardianStats.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayEfect/CT_GuardianStats.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +355,7 @@
       <workItem from="1749877094150" duration="195000" />
       <workItem from="1749877318438" duration="13268000" />
       <workItem from="1749896129264" duration="4374000" />
-      <workItem from="1749901126799" duration="15386000" />
+      <workItem from="1749901126799" duration="15838000" />
     </task>
     <servers />
   </component>

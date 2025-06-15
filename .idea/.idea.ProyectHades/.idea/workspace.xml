@@ -15,6 +15,8 @@
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/DummyEnemy/BT_Dummy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/DummyEnemy/BT_Dummy.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/AI/BTTask_RotateToFaceTarget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/AI/BTTask_RotateToFaceTarget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/AI/BTTask_RotateToFaceTarget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/AI/BTTask_RotateToFaceTarget.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +361,7 @@
       <workItem from="1749896129264" duration="4374000" />
       <workItem from="1749901126799" duration="16165000" />
       <workItem from="1749950461855" duration="315000" />
-      <workItem from="1749950896839" duration="2205000" />
+      <workItem from="1749950896839" duration="3969000" />
     </task>
     <servers />
   </component>

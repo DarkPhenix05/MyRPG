@@ -24,5 +24,8 @@ public:
 		TArray<FGameplayAbilitySpecHandle>& OutGrantedAbilitySpecHandles);
 
 	UFUNCTION(BlueprintCallable, Category = "Warrior|Ability")
-	void RemoveGrantedHeroWEaponAbilities(UPARAM(ref) TArray<FGameplayAbilitySpecHandle>& InSpecHandlesToRemove);
+	void RemoveGrantedHeroWeaponAbilities(UPARAM(ref) TArray<FGameplayAbilitySpecHandle>& InSpecHandlesToRemove);
+	
+	UFUNCTION(BlueprintCallable, Category = "Warrior|Ability")
+	bool TryToActivateAbilityByTag(FGameplayTag AbilityTagToActivate);
 };

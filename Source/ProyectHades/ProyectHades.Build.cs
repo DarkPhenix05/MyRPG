@@ -16,7 +16,9 @@ public class ProyectHades : ModuleRules
 			"InputCore", 
 			"GameplayTags",
 			"EnhancedInput",
-			"GameplayTasks"
+			"GameplayTasks",
+			"AnimGraphRuntime",
+			"MotionWarping",
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

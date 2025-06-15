@@ -23,6 +23,10 @@ public:
 	UFUNCTION(BlueprintPure, Category = "WWarrior|Ability")
 	UEnemyCombatComponent* GetEnemyCombatComponentFromActorInfo();
 
+	UFUNCTION(BlueprintPure, Category = "WWarrior|Ability")
+	FGameplayEffectSpecHandle MakeEnemyDamageEffectSpecHandle(
+		TSubclassOf<UGameplayEffect> EffectClass, const FScalableFloat& InDamageScalableFloat);
+
 private:
 	TWeakObjectPtr<AWarriorEnemyCharacter> CachedWarriorEnemyCharacter;
 };

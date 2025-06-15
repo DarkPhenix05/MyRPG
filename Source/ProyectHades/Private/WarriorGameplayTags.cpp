@@ -36,8 +36,8 @@ namespace  WarriorGameplayTags
 		//Status
 	UE_DEFINE_GAMEPLAY_TAG(Player_Status_JumpToFinisher, "Player.Status.JumpToFinisher");
 		//SetByCaller
-	UE_DEFINE_GAMEPLAY_TAG(Player_SetByCaller_AttackType_Light, "Player.SetByCaller.AttackType.Light")
-	UE_DEFINE_GAMEPLAY_TAG(Player_SetByCaller_AttackType_Heavy, "Player.SetByCaller.AttackType.Heavy")
+	UE_DEFINE_GAMEPLAY_TAG(Player_SetByCaller_AttackType_Light, "Player.SetByCaller.AttackType.Light");
+	UE_DEFINE_GAMEPLAY_TAG(Player_SetByCaller_AttackType_Heavy, "Player.SetByCaller.AttackType.Heavy");
 
 	/** Enemy TAGS **/
 	UE_DEFINE_GAMEPLAY_TAG(Enemy_Weapon, "Enemy.Weapon")
@@ -45,20 +45,21 @@ namespace  WarriorGameplayTags
 	UE_DEFINE_GAMEPLAY_TAG(Enemy_Ability_Melee, "Enemy.Ability.Melee")
 	UE_DEFINE_GAMEPLAY_TAG(Enemy_Ability_Ranged, "Enemy.Ability.Ranged")
 
-	UE_DEFINE_GAMEPLAY_TAG(Enemy_Status_Strafing, "Enemy.Status.Strafing")
+	UE_DEFINE_GAMEPLAY_TAG(Enemy_Status_Strafing, "Enemy.Status.Strafing");
+	UE_DEFINE_GAMEPLAY_TAG(Enemy_Status_UnderAttack,"Enemy.Status.UnderAttack");
 
 	/** Shared TAGS **/
 		//React to Hit
-	UE_DEFINE_GAMEPLAY_TAG(Shared_Ability_HitReact_Light, "Shared.Ability.HitReact.Light")
-	UE_DEFINE_GAMEPLAY_TAG(Shared_Ability_HitReact_Heavy, "Shared.Ability.HitReact.Heavy")
+	UE_DEFINE_GAMEPLAY_TAG(Shared_Ability_HitReact_Light, "Shared.Ability.HitReact.Light");
+	UE_DEFINE_GAMEPLAY_TAG(Shared_Ability_HitReact_Heavy, "Shared.Ability.HitReact.Heavy");
 		//Death
-	UE_DEFINE_GAMEPLAY_TAG(Shared_Ability_Death, "Shared.Ability.Death")
+	UE_DEFINE_GAMEPLAY_TAG(Shared_Ability_Death, "Shared.Ability.Death");
 		//React to Hit Event
-	UE_DEFINE_GAMEPLAY_TAG(Shared_Event_MeleeHit, "Shared.Event.MeleeHit")
-	UE_DEFINE_GAMEPLAY_TAG(Shared_Event_HitReact_Light, "Shared.Event.HitReact.Light")
-	UE_DEFINE_GAMEPLAY_TAG(Shared_Event_HitReact_Heavy, "Shared.Event.HitReact.Heavy")
+	UE_DEFINE_GAMEPLAY_TAG(Shared_Event_MeleeHit, "Shared.Event.MeleeHit");
+	UE_DEFINE_GAMEPLAY_TAG(Shared_Event_HitReact_Light, "Shared.Event.HitReact.Light");
+	UE_DEFINE_GAMEPLAY_TAG(Shared_Event_HitReact_Heavy, "Shared.Event.HitReact.Heavy");
 		//Damage
-	UE_DEFINE_GAMEPLAY_TAG(Shared_SetByCaller_BaseDamage, "Shared.SetByCaller.BaseDamage")
+	UE_DEFINE_GAMEPLAY_TAG(Shared_SetByCaller_BaseDamage, "Shared.SetByCaller.BaseDamage");
 		//Death Status
-	UE_DEFINE_GAMEPLAY_TAG(Shared_Status_Death, "Shared.Status.Death")
+	UE_DEFINE_GAMEPLAY_TAG(Shared_Status_Death, "Shared.Status.Death");
 }

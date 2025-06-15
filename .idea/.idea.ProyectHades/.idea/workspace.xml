@@ -14,8 +14,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BT_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BT_Guardian.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Shared/GameplayEffect/GE_Enemy_UnderAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/GameplayEffect/GE_Enemy_UnderAttack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Sounds/Creatures/Guardian/SC_Guardian_Attack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Sounds/Creatures/Guardian/SC_Guardian_Attack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Sounds/Weapons/Stick/SC_StickHit_1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Sounds/Weapons/Stick/SC_StickHit_1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/MeleeAttack/AM_GuardiantMeleeAttack_1_Adjusted.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/MeleeAttack/AM_GuardiantMeleeAttack_1_Adjusted.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/MeleeAttack/AM_GuardiantMeleeAttack_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/MeleeAttack/AM_GuardiantMeleeAttack_2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Enemy_MeleeAttack_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Enemy_MeleeAttack_Base.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +368,7 @@
       <workItem from="1749901126799" duration="16165000" />
       <workItem from="1749950461855" duration="315000" />
       <workItem from="1749950896839" duration="3969000" />
-      <workItem from="1749960025742" duration="2643000" />
+      <workItem from="1749960025742" duration="3269000" />
     </task>
     <servers />
   </component>

@@ -14,10 +14,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ba661d07-488e-4c9c-b5c8-7e5a00e0a392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectHades/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/DA_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/DA_Guardian.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Guardian_Melee_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayAbility/GA_Guardian_Melee_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayEfect/CT_GuardianStats.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/GameplayEfect/CT_GuardianStats.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/MeleeAttack/AM_GuardiantMeleeAttack_1_Adjusted.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/MeleeAttack/AM_GuardiantMeleeAttack_1_Adjusted.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/MeleeAttack/AM_GuardiantMeleeAttack_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/Montage/MeleeAttack/AM_GuardiantMeleeAttack_2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectHades.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectHades.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorBaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Private/Characters/WarriorBaseCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/ProyectHades.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/ProyectHades.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProyectHades/Public/Characters/WarriorBaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProyectHades/Public/Characters/WarriorBaseCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,9 @@
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Public/WarriorGameplayTags.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProyectHades/Public/Widgets/WarriorWidgetBase.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/AI/MLAdapter/Source/MLAdapter/Public/Debug/DebugHelpers.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Animation/MotionWarping/Source/MotionWarping/Private/MotionWarping.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Animation/MotionWarping/Source/MotionWarping/Private/MotionWarpingComponent.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/Animation/MotionWarping/Source/MotionWarping/Public/MotionWarpingComponent.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/ChaosVD/Source/ChaosVD/Private/ChaosVDTabsIDs.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/EnhancedInput/Source/EnhancedInput/Private/EnhancedInputLibrary.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/EnhancedInput/Source/EnhancedInput/Private/EnhancedInputSubsystems.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -355,7 +360,9 @@
       <workItem from="1749877094150" duration="195000" />
       <workItem from="1749877318438" duration="13268000" />
       <workItem from="1749896129264" duration="4374000" />
-      <workItem from="1749901126799" duration="15838000" />
+      <workItem from="1749901126799" duration="16165000" />
+      <workItem from="1749950461855" duration="315000" />
+      <workItem from="1749950896839" duration="401000" />
     </task>
     <servers />
   </component>
